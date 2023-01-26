@@ -1,5 +1,5 @@
 ## 📖 About
-A library for working with the [Wio-E5 Wireless Module](https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html).
+An Arduino library for working with the [Wio-E5 Wireless Module](https://www.seeedstudio.com/Grove-LoRa-E5-STM32WLE5JC-p-4867.html).
 
 
 ## © License
