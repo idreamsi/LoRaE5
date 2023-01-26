@@ -37,16 +37,16 @@ LoRaE5Class::LoRaE5Class(void) {
     debug = false;
 }
 
-void LoRaE5Class::init(void) {          //For Hardware Serial
-		SerialLoRa.begin(9600);							//For SAMD Variant and XIAO NRF
+void LoRaE5Class::init(void) {          		//For Hardware Serial
+    SerialLoRa.begin(9600);				//For SAMD Variant and XIAO NRF
 }
 
-void LoRaE5Class::init(uint8_t rx, uint8_t tx) {    //For Custom Serial
-	#if defined(ESP32)
-		SerialLoRa.begin(9600, SERIAL_8N1, rx, tx);		  //M5Stack ESP32 Camera Module Development Board	
-	#else
-		SerialLoRa.begin(9600);		
-	#endif
+void LoRaE5Class::init(uint8_t rx, uint8_t tx) {    	//For Custom Serial
+    #if defined(ESP32)
+        SerialLoRa.begin(9600, SERIAL_8N1, rx, tx);	//M5Stack ESP32 Camera Module Development Board	
+    #else
+        SerialLoRa.begin(9600);		
+    #endif
 }
 
 void LoRaE5Class::getVersion(char *buffer, short length,
