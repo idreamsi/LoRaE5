@@ -1,5 +1,5 @@
 /*
-  LoRaWAN.cpp for M5Stack (fork from https://github.com/toddkrein/OTAA-LoRaWAN-Seeed)
+  LoRaE5 (fork from https://github.com/toddkrein/OTAA-LoRaWAN-Seeed)
 
   2013 Copyright (c) Seeed Technology Inc.  All right reserved.
   2017 Copyright (c) Todd Krein. All rights reserved.
