@@ -6,7 +6,7 @@ void setup(void)
 {
     SerialUSB.begin(115200);
     lora.init();
-    lora.initP2PMode(433, SF12, BW125, 8, 8, 20);
+    lora.initP2PMode(866, SF12, BW125, 12, 15, 14);
 }
 
 void loop(void)
