@@ -1,8 +1,8 @@
 #include <LoRaE5.h>
 unsigned char buffer[128] = {0, };
 
-#define GROVE_TX 21
-#define GROVE_RX 20
+//#define GROVE_TX 21
+//#define GROVE_RX 20
 
 void setup(void)
 {
